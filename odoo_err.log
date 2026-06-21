@@ -1,0 +1,175 @@
+2026-06-20 20:55:12,034 14160 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2026-06-20 20:55:12,037 14160 INFO ? odoo: Odoo version 19.0 
+2026-06-20 20:55:12,038 14160 INFO ? odoo: Using configuration file at c:\users\hicha\downloads\odoo-19.0\odoo.conf 
+2026-06-20 20:55:12,039 14160 INFO ? odoo: addons paths: _NamespacePath(['C:\\Users\\hicha\\Downloads\\odoo-19.0\\odoo\\addons', 'C:\\Users\\hicha\\AppData\\Local\\OpenERP S.A.\\Odoo\\addons\\19.0', 'c:\\users\\hicha\\downloads\\odoo-19.0\\addons', 'c:\\users\\hicha\\downloads\\odoo-19.0\\odoo\\addons']) 
+2026-06-20 20:55:12,041 14160 INFO ? odoo: database: odoo@localhost:5432 
+2026-06-20 20:55:14,513 14160 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-TQP4SFG:8069 
+2026-06-20 20:55:14,658 14160 INFO odoo19_clean odoo.modules.loading: loading 1 modules... 
+2026-06-20 20:55:14,671 14160 INFO odoo19_clean odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-06-20 20:55:14,758 14160 WARNING odoo19_clean odoo.modules.module_graph: module om_account_budget: not installable, skipped 
+2026-06-20 20:55:14,764 14160 WARNING odoo19_clean odoo.modules.module_graph: module om_recurring_payments: not installable, skipped 
+2026-06-20 20:55:14,765 14160 WARNING odoo19_clean odoo.modules.module_graph: module om_account_asset: not installable, skipped 
+2026-06-20 20:55:14,767 14160 WARNING odoo19_clean odoo.modules.module_graph: module accounting_pdf_reports: not installable, skipped 
+2026-06-20 20:55:14,768 14160 WARNING odoo19_clean odoo.modules.module_graph: module om_account_followup: not installable, skipped 
+2026-06-20 20:55:14,769 14160 WARNING odoo19_clean odoo.modules.module_graph: module om_account_daily_reports: not installable, skipped 
+2026-06-20 20:55:14,771 14160 WARNING odoo19_clean odoo.modules.module_graph: module om_fiscal_year: not installable, skipped 
+2026-06-20 20:55:14,772 14160 WARNING odoo19_clean odoo.modules.module_graph: module om_account_accountant: not installable, skipped 
+2026-06-20 20:55:14,838 14160 INFO odoo19_clean odoo.modules.loading: loading 89 modules... 
+2026-06-20 20:55:28,328 14160 INFO odoo19_clean odoo.modules.loading: 89 modules loaded in 13.49s, 0 queries (+0 extra) 
+2026-06-20 20:55:28,708 14160 ERROR odoo19_clean odoo.modules.loading: Some modules are not loaded, some dependencies or manifest may be missing: ['accounting_pdf_reports', 'om_account_accountant', 'om_account_asset', 'om_account_budget', 'om_account_daily_reports', 'om_account_followup', 'om_fiscal_year', 'om_recurring_payments'] 
+2026-06-20 20:55:28,709 14160 INFO odoo19_clean odoo.modules.loading: Modules loaded. 
+2026-06-20 20:55:28,928 14160 INFO odoo19_clean odoo.registry: Registry loaded in 14.405s 
+2026-06-20 20:55:28,932 14160 INFO odoo19_clean odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-06-20 20:55:29,089 14160 INFO odoo19_clean odoo.addons.base.models.res_device: User 2 inserts device log (u4K2Zxo1TPaG20Lzjfgd39hcPsgdNSPzcndDFjbmeu) 
+2026-06-20 20:55:29,191 14160 INFO odoo19_clean werkzeug: 127.0.0.1 - - [20/Jun/2026 20:55:29] "GET / HTTP/1.1" 303 - 14 0.157 11.706
+2026-06-20 20:55:35,218 14160 INFO odoo19_clean werkzeug: 127.0.0.1 - - [20/Jun/2026 20:55:35] "GET /odoo HTTP/1.1" 200 - 81 0.514 5.458
+2026-06-20 20:55:36,247 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.financial.report 
+2026-06-20 20:55:36,249 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.report.partner.ledger 
+2026-06-20 20:55:36,250 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.report.general.ledger 
+2026-06-20 20:55:36,250 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.balance.report 
+2026-06-20 20:55:36,251 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model accounting.report 
+2026-06-20 20:55:36,251 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model accounting.report 
+2026-06-20 20:55:36,252 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.tax.report.wizard 
+2026-06-20 20:55:36,253 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.aged.trial.balance 
+2026-06-20 20:55:36,253 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.aged.trial.balance 
+2026-06-20 20:55:36,254 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.aged.trial.balance 
+2026-06-20 20:55:36,259 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.print.journal 
+2026-06-20 20:55:36,260 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model asset.depreciation.confirmation.wizard 
+2026-06-20 20:55:36,260 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.asset.asset 
+2026-06-20 20:55:36,261 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.asset.category 
+2026-06-20 20:55:36,261 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model asset.asset.report 
+2026-06-20 20:55:36,262 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.budget.post 
+2026-06-20 20:55:36,262 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model crossovered.budget 
+2026-06-20 20:55:36,263 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model crossovered.budget.lines 
+2026-06-20 20:55:36,264 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model followup.print 
+2026-06-20 20:55:36,264 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model followup.followup 
+2026-06-20 20:55:36,265 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model followup.stat 
+2026-06-20 20:55:36,266 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model change.lock.date 
+2026-06-20 20:55:36,267 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.fiscal.year 
+2026-06-20 20:55:36,267 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.recurring.template 
+2026-06-20 20:55:36,268 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model recurring.payment 
+2026-06-20 20:55:36,268 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.daybook.report 
+2026-06-20 20:55:36,269 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.cashbook.report 
+2026-06-20 20:55:36,269 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.bankbook.report 
+2026-06-20 20:55:36,294 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.financial.report 
+2026-06-20 20:55:36,295 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.report.partner.ledger 
+2026-06-20 20:55:36,295 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.report.general.ledger 
+2026-06-20 20:55:36,296 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.balance.report 
+2026-06-20 20:55:36,297 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model accounting.report 
+2026-06-20 20:55:36,311 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model accounting.report 
+2026-06-20 20:55:36,312 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.tax.report.wizard 
+2026-06-20 20:55:36,313 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.aged.trial.balance 
+2026-06-20 20:55:36,313 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.aged.trial.balance 
+2026-06-20 20:55:36,314 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.aged.trial.balance 
+2026-06-20 20:55:36,315 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.print.journal 
+2026-06-20 20:55:36,315 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model asset.depreciation.confirmation.wizard 
+2026-06-20 20:55:36,316 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.asset.asset 
+2026-06-20 20:55:36,317 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.asset.category 
+2026-06-20 20:55:36,318 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model asset.asset.report 
+2026-06-20 20:55:36,318 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.budget.post 
+2026-06-20 20:55:36,319 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model crossovered.budget 
+2026-06-20 20:55:36,321 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model crossovered.budget.lines 
+2026-06-20 20:55:36,322 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model followup.print 
+2026-06-20 20:55:36,322 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model followup.followup 
+2026-06-20 20:55:36,323 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model followup.stat 
+2026-06-20 20:55:36,323 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model change.lock.date 
+2026-06-20 20:55:36,324 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.fiscal.year 
+2026-06-20 20:55:36,325 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.recurring.template 
+2026-06-20 20:55:36,325 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model recurring.payment 
+2026-06-20 20:55:36,326 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.daybook.report 
+2026-06-20 20:55:36,326 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.cashbook.report 
+2026-06-20 20:55:36,327 14160 ERROR odoo19_clean odoo.addons.base.models.ir_model: Missing model account.bankbook.report 
+2026-06-20 20:55:36,342 14160 INFO odoo19_clean werkzeug: 127.0.0.1 - - [20/Jun/2026 20:55:36] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 14 0.091 0.420
+2026-06-20 20:55:36,389 14160 INFO odoo19_clean werkzeug: 127.0.0.1 - - [20/Jun/2026 20:55:36] "GET /web/webclient/load_menus HTTP/1.1" 200 - 16 0.306 0.259
+2026-06-20 20:56:37,581 14160 INFO odoo19_clean odoo.addons.base.models.ir_cron: Job 'Mail: Fetchmail Service' (6) starting 
+2026-06-20 20:56:37,634 14160 INFO odoo19_clean odoo.addons.base.models.ir_cron: Job 'Mail: Post scheduled messages' (7) starting 
+2026-06-20 20:56:38,677 14160 INFO odoo19_clean odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/ca0ad28/web.assets_web.css (id:599) 
+2026-06-20 20:56:38,688 14160 INFO odoo19_clean odoo.addons.base.models.assetsbundle: Deleting attachments [590] (matching /web/assets/_______/web.assets_web.css) because it was replaced with /web/assets/ca0ad28/web.assets_web.css 
+2026-06-20 20:56:39,229 14160 INFO odoo19_clean odoo.addons.mail.models.mail_scheduled_message: Posting 0 scheduled messages 
+2026-06-20 20:56:39,271 14160 INFO odoo19_clean odoo.addons.base.models.ir_cron: Job 'Mail: Post scheduled messages' (7) fully done (#loop 1; done 0; remaining 0; duration 1.64s) 
+2026-06-20 20:56:39,906 14160 INFO odoo19_clean odoo.addons.mail.models.fetchmail: Fetchmail servers (in order) to be processed ['odoo'] 
+2026-06-20 20:56:39,909 14160 INFO odoo19_clean odoo.addons.mail.models.fetchmail: Start checking for new emails on imap server odoo 
+2026-06-20 20:56:40,001 14160 INFO odoo19_clean odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2026-06-20 20:56:40,004 14160 INFO odoo19_clean werkzeug: 127.0.0.1 - - [20/Jun/2026 20:56:40] "GET /web/assets/debug/web.assets_web.css HTTP/1.1" 200 - 19 1.103 63.434
+2026-06-20 20:56:40,033 14160 INFO odoo19_clean odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) fully done (#loop 1; done 0; remaining 0; duration 0.03s) 
+2026-06-20 20:56:40,044 14160 INFO odoo19_clean odoo.addons.base.models.ir_cron: Job 'Mail: send web push notification' (9) starting 
+2026-06-20 20:56:40,088 14160 INFO odoo19_clean odoo.addons.base.models.ir_cron: Job 'Mail: send web push notification' (9) fully done (#loop 1; done 0; remaining 0; duration 0.05s) 
+2026-06-20 20:56:40,097 14160 INFO odoo19_clean odoo.addons.base.models.ir_cron: Job 'Discuss: channel member unmute' (10) starting 
+2026-06-20 20:56:40,131 14160 INFO odoo19_clean odoo.addons.base.models.ir_cron: Job 'Discuss: channel member unmute' (10) fully done (#loop 1; done 0; remaining 0; duration 0.05s) 
+2026-06-20 20:56:40,139 14160 INFO odoo19_clean odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (12) starting 
+2026-06-20 20:56:40,168 14160 INFO odoo19_clean odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (12) fully done (#loop 1; done 0; remaining 0; duration 0.03s) 
+2026-06-20 20:56:40,177 14160 INFO odoo19_clean odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (13) starting 
+2026-06-20 20:56:40,201 14160 INFO odoo19_clean odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (13) fully done (#loop 1; done 0; remaining 0; duration 0.03s) 
+2026-06-20 20:56:40,212 14160 INFO odoo19_clean odoo.addons.base.models.ir_cron: Job 'Send invoices automatically' (17) starting 
+2026-06-20 20:56:40,250 14160 INFO odoo19_clean odoo.addons.base.models.ir_cron: Job 'Send invoices automatically' (17) fully done (#loop 1; done 0; remaining 0; duration 0.03s) 
+2026-06-20 20:56:40,257 14160 INFO odoo19_clean odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2026-06-20 20:56:40,307 14160 INFO odoo19_clean odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) fully done (#loop 1; done 0; remaining 0; duration 0.05s) 
+2026-06-20 20:56:40,315 14160 INFO odoo19_clean odoo.addons.base.models.ir_cron: Job 'Users: Notify About Unregistered Users' (11) starting 
+2026-06-20 20:56:40,553 14160 INFO odoo19_clean odoo.addons.base.models.ir_cron: Job 'Users: Notify About Unregistered Users' (11) fully done (#loop 1; done 0; remaining 0; duration 0.25s) 
+2026-06-20 20:56:40,560 14160 INFO odoo19_clean odoo.addons.base.models.ir_cron: Job 'Publisher: Update Notification' (4) starting 
+2026-06-20 20:56:41,006 14160 INFO odoo19_clean odoo.addons.mail.models.fetchmail: Fetched 0 email(s) on imap server odoo; 0 succeeded, 0 failed. 
+2026-06-20 20:56:41,034 14160 INFO odoo19_clean odoo.addons.base.models.ir_cron: Job 'Mail: Fetchmail Service' (6) fully done (#loop 1; done 1; remaining 0; duration 3.45s) 
+2026-06-20 20:56:41,887 14160 INFO odoo19_clean odoo.addons.base.models.ir_cron: Job 'Publisher: Update Notification' (4) fully done (#loop 1; done 0; remaining 0; duration 1.33s) 
+2026-06-20 20:57:05,055 14160 INFO odoo19_clean odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/a68432b/web.assets_web_print.css (id:600) 
+2026-06-20 20:57:05,058 14160 INFO odoo19_clean odoo.addons.base.models.assetsbundle: Deleting attachments [595] (matching /web/assets/_______/web.assets_web_print.css) because it was replaced with /web/assets/a68432b/web.assets_web_print.css 
+2026-06-20 20:57:05,093 14160 INFO odoo19_clean werkzeug: 127.0.0.1 - - [20/Jun/2026 20:57:05] "GET /web/assets/debug/web.assets_web_print.css HTTP/1.1" 200 - 12 0.086 23.004
+2026-06-20 20:57:06,322 14160 INFO odoo19_clean odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/22461dd/web.assets_web.js.map (id:601) 
+2026-06-20 20:57:06,327 14160 INFO odoo19_clean odoo.addons.base.models.assetsbundle: Deleting attachments [592] (matching /web/assets/_______/web.assets_web.js.map) because it was replaced with /web/assets/22461dd/web.assets_web.js.map 
+2026-06-20 20:57:36,432 14160 WARNING odoo19_clean odoo.service.server: Thread <Thread(odoo.service.http.request.30240, started 30240)> virtual real time limit (120/120s) reached. 
+2026-06-20 20:57:36,433 14160 INFO odoo19_clean odoo.service.server: Dumping stacktrace of limit exceeding threads before reloading 
+2026-06-20 20:57:36,634 14160 INFO odoo19_clean odoo.tools.misc: 
+# Thread: <Thread(odoo.service.http.request.30240, started 30240)> (db:odoo19_clean) (uid:2) (url:http://127.0.0.1:8069/web/assets/debug/web.assets_web.js) (qc:11 qt:0.288 pt:120.703)
+File: "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\threading.py", line 1032, in _bootstrap
+  self._bootstrap_inner()
+File: "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\threading.py", line 1075, in _bootstrap_inner
+  self.run()
+File: "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\threading.py", line 1012, in run
+  self._target(*self._args, **self._kwargs)
+File: "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+  self.finish_request(request, client_address)
+File: "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+  self.RequestHandlerClass(request, client_address, self)
+File: "C:\Users\hicha\Downloads\odoo-19.0\odoo\service\server.py", line 143, in __init__
+  super().__init__(*args, **kwargs)
+File: "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+  self.handle()
+File: "C:\Users\hicha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\werkzeug\serving.py", line 390, in handle
+  super().handle()
+File: "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+  self.handle_one_request()
+File: "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+  method()
+File: "C:\Users\hicha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\werkzeug\serving.py", line 362, in run_wsgi
+  execute(self.server.app)
+File: "C:\Users\hicha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\werkzeug\serving.py", line 323, in execute
+  application_iter = app(environ, start_response)
+File: "C:\Users\hicha\Downloads\odoo-19.0\odoo\http.py", line 2829, in __call__
+  response = request._serve_db()
+File: "C:\Users\hicha\Downloads\odoo-19.0\odoo\http.py", line 2302, in _serve_db
+  return service_model.retrying(serve_func, env=self.env)
+File: "C:\Users\hicha\Downloads\odoo-19.0\odoo\service\model.py", line 188, in retrying
+  result = func()
+File: "C:\Users\hicha\Downloads\odoo-19.0\odoo\http.py", line 2357, in _serve_ir_http
+  response = self.dispatcher.dispatch(rule.endpoint, args)
+File: "C:\Users\hicha\Downloads\odoo-19.0\odoo\http.py", line 2479, in dispatch
+  return self.request.registry['ir.http']._dispatch(endpoint)
+File: "C:\Users\hicha\Downloads\odoo-19.0\odoo\addons\base\models\ir_http.py", line 355, in _dispatch
+  result = endpoint(**request.params)
+File: "C:\Users\hicha\Downloads\odoo-19.0\odoo\http.py", line 811, in route_wrapper
+  result = endpoint(self, *args, **params_ok)
+File: "c:\users\hicha\downloads\odoo-19.0\addons\web\controllers\binary.py", line 147, in content_assets
+  attachment = bundle.js()
+File: "C:\Users\hicha\Downloads\odoo-19.0\odoo\addons\base\models\assetsbundle.py", line 340, in js
+  js_attachment = self.js_with_sourcemap(template_bundle=template_bundle)
+File: "C:\Users\hicha\Downloads\odoo-19.0\odoo\addons\base\models\assetsbundle.py", line 362, in js_with_sourcemap
+  if asset.is_transpiled:
+File: "C:\Users\hicha\Downloads\odoo-19.0\odoo\addons\base\models\assetsbundle.py", line 818, in is_transpiled
+  self._is_transpiled = bool(is_odoo_module(self.url, super().content))
+File: "C:\Users\hicha\Downloads\odoo-19.0\odoo\addons\base\models\assetsbundle.py", line 771, in content
+  self._content = self.inline or self._fetch_content()
+File: "C:\Users\hicha\Downloads\odoo-19.0\odoo\addons\base\models\assetsbundle.py", line 836, in _fetch_content
+  return super()._fetch_content()
+File: "C:\Users\hicha\Downloads\odoo-19.0\odoo\addons\base\models\assetsbundle.py", line 779, in _fetch_content
+  with closing(file_open(self._filename, 'rb', filter_ext=EXTENSIONS)) as fp:
+File: "C:\Users\hicha\Downloads\odoo-19.0\odoo\tools\misc.py", line 285, in file_open
+  return open(path, mode, encoding=encoding) 
